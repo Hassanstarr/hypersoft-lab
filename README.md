@@ -39,7 +39,12 @@ The lab is composed of a diverse group of researchers and scholars:
 
 For inquiries, you can reach out to us:
 
-- **Location**: Hyper Soft Lab, [Insert Address]
+- **Location**: 
+    > Department of Mathematics,
+    > School of Science,
+    > University of Management and Technology,
+    > C-II Johar Town, 54700, Lahore,
+    > Pakistan
 - **Head of the Lab**: Prof. Dr. Muhammad Saeed
   - Email: [muhammad.saeed@umt.edu.pk]
 
