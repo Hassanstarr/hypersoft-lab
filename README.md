@@ -28,7 +28,7 @@ The lab has contributed significantly to the academic community with numerous bo
 ### Head of the Lab
 - **Prof. Dr. Muhammad Saeed**: 
   - Ph.D. in Mathematics
-  - Expert in fuzzy soft sets, decision-making, and machine learning.
+  - Expert in Algebra, soft sets, Fuzzy Mathematics, multicriteria decision-making, and soft computing.
 
 ### Members
 The lab is composed of a diverse group of researchers and scholars:
