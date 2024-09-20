@@ -2,6 +2,7 @@
 
 Welcome to the official website of **Hyper Soft Lab**! This site serves as a hub for the research, publications, and people associated with the lab, focusing on advanced topics in decision-making, machine learning, and diagnostic systems.
 
+Visit Website: [Hypersoft Lab](https://hypersoft-lab.vercel.app/)
 
 ## Research
 
