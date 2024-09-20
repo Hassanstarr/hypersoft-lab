@@ -1,0 +1,30 @@
+
+.container-contact{
+    margin: auto;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.grid-contain-cl{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.ca-block1{
+    width: 100%;
+    margin: 3rem 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ca-block1 h5{
+    color: var(--people-header)
+}
+
+.contact-people .contact-svg, .ca-block1 .contact-svg{
+    margin-top: 10px;
+    padding: 10px;
+    color: var(--contact-svg);
+}

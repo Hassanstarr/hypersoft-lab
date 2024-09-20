@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    background-color: var(--bg-main);
+    top: 0;
+    padding: 0 4rem;
+    box-shadow: 0 0 5px var(--bg-text);
+    z-index: 100;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    color: var(--menu-text);
+    font-size: 24px;
+}
+
+nav > div{
+    margin: 20px 0;
+}
+
+
+nav img{
+    cursor: pointer;
+    width: 190x;
+    height: 29px;
+}
+
+.nav-block{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-block > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav-links{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 150%;
+}
+
+.nav-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 13px;
+    color: var(--link-color);
+    border: none;
+}
+
+.nav-links a:hover{
+    color: var(--nav-link-hover);
+}
+
+.nav-block{
+    width: 200%;
+    justify-content: flex-end;
+}
+
+.nav-block ul svg path{
+    fill: var(--link-color);
+}
+
+.nav-block ul svg:hover path{
+    fill: var(--nav-link-hover);
+}
+
+
+.themebtn{
+    color: var(--link-color);
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.themebtn:hover{
+    color: var(--link-color);
+}
+
+.themebtn svg{
+    margin: 0 1rem;
+    fill: var(--nav-link-hover);
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-color);
+}
+

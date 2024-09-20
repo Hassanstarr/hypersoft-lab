@@ -1,0 +1,153 @@
+
+
+.title{
+    position: relative;
+    text-align: center;
+}
+
+.title>img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    margin: 0 auto;
+}
+
+.title-h1{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--bg-title);
+    font-weight: 700;
+    font-size: 3.5rem;
+    -webkit-text-stroke: 2px var(--bg-text);
+}
+
+.head {
+    margin: 5% 15%;
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--people-title);
+    color: var(--people-title);
+    font-size: 1.5rem;
+    z-index: 100;
+}
+
+.sub-heading{
+    margin: 5% 20%;
+    padding: 0;
+    border-bottom: 1px solid var(--people-title);
+    color: var(--people-title);
+    font-size: 1.3rem;
+    z-index: 100;
+    text-align: center;
+}
+
+p {
+    color: var(--p-color);
+    font-size: 1rem;
+    margin: 10px 0 5px;
+}
+
+/* Faculty Section */
+
+.faculty-body {
+    display: flex;
+    padding: 5% 15%;
+}
+
+.faculty-body img {
+    border-radius: 10px;
+    width: 300px;
+    color: var(--people-header);
+}
+
+.faculty-body-container {
+    margin: 0 1rem;
+}
+
+.faculty-body-container > h2{
+    color: var(--people-header);
+}
+
+
+/* Cards Section */
+
+
+.gscard-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5% 15%;
+}
+
+.gscard {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.gscard > img{
+    border-radius: 20px;
+    width: 90%;
+    color: var(--people-header);
+}
+
+
+.gscard > h4{
+    margin: 30px 0 10px;
+    color: var(--people-header);
+}
+
+.gscard p{
+    line-height: 2;
+    font-size: 0.75rem;
+    text-align: justify;
+
+}
+
+.gscard > div{
+    color: var(--p-color);
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.gscard-svg{
+    color: var(--contact-svg);
+}
+
+.gscard-svg:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.copy-popup {
+    position: fixed;
+    text-align: center;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 5%, rgba(41,121,175,1) 50%, rgba(0,212,255,1) 95%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards, fadeOut 0.3s 1.7s forwards;
+}
+  
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.Supervised{
+    padding: 5% 15%;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+body {
+    font-family: 'Arvo', serif;
+    background-color: var(--bg-main);
+}
+
+.carousel{
+    opacity: 0.8;
+}
+
+.carousel-inner img {
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-control-prev-icon, .carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
+}
+   
+.carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 5px !important;
+}
+
+.Home2 {
+    padding: 5% 20%;
+    background-color: var(--bg-home-2);
+    text-align: center;
+}
+
+.Home2 > h1{
+    color: var(--bg-text);
+    -webkit-text-stroke: 1px var(--bg-text);
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.Home2 > p {
+    line-height: 2;
+    color: var(--p-color);
+    margin: 2.5% auto;
+}
+
+.btn {
+    margin: 2.5% auto;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    border-color: var(--btn-home-bc);
+    backdrop-filter: blur(15px);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--btn-outline-primary-hover);
+    border-color: var(--btn-home-bc);
+    background-image: none;
+    size: 120%;
+    transform: scaleX(1.2);
+}
+
+.btn-outline-primary a{
+    -webkit-text-stroke: 1px var(--a-color);
+}
+
+.btn-outline-primary:hover a{
+    color: var(--btn-home-t);
+    -webkit-text-stroke: 0;
+}
+

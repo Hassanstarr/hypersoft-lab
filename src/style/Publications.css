@@ -1,0 +1,95 @@
+
+
+.btn-publications{
+    position: relative;
+    bottom: 100px;
+    z-index: 10;
+    margin: 0 10px;
+}
+
+.pub-book{
+    padding: 5% 15%;
+}
+
+.pub-book > h3{
+    color: var(--people-header);
+}
+
+.accordion{
+    margin: 4rem 2.5rem;
+    --bs-accordion-border-color: var(--table-bg);
+}
+
+.accordion-item {
+    padding: 1% 13%;
+    border: none;
+    background-color: var(--bg-main);
+}
+
+.accordion-border{
+    border: 1px solid var(--accordion-b);
+    border-radius: 10px;
+}
+
+.accordion-body{
+    padding: 2% 5%;
+    background-color: var(--table-bg);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button {
+    color: var(--people-header);
+    background-color: var(--accordion-btn);
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--people-header);
+    background-color: var(--accordion-open);
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+
+table{
+    width: 100% !important;
+}
+
+table, th, td{
+    text-align: center;
+    color: var(--table-color);
+    background-color: var(--table-bg);
+    border: 2px solid var(--table-border);
+}
+
+th{
+    background-color: var(--table-header-bg);
+}
+
+tr:nth-child(even) td{
+    background-color: var(--table-row-even);
+}
+
+tr:nth-child(odd) td{
+    background-color: var(--table-row-odd);
+}
+
+.doi-copy{
+    color: var(--a-color);
+}
+
+.doi-copy:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+

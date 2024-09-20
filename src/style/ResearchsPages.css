@@ -1,0 +1,15 @@
+
+.research-page-body{
+    padding: 5% 20%;
+}
+
+.research-page-body > h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--people-header);
+}
+
+.research-page-body > h4{
+    margin-top: 10%;
+    color: var(--people-header);
+}

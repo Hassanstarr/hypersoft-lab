@@ -1,0 +1,278 @@
+
+@media (max-width: 952px) {
+
+  nav{
+    flex-direction: column;
+    position: sticky;
+  }
+  
+  .menu-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: var(--bg-select-page);
+    width: 100%;
+    height: 60%;
+    margin: auto auto 5px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.open {
+    margin-top: 15px;
+    display: block;
+    position: absolute;
+    top: 100px;
+    background-color: var(--bg-main);
+    width: 60%;
+    z-index: 100;
+  }
+
+  .nav-links li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .nav-block{
+    width: 50%;
+    justify-content: flex-start;
+    border-top: 1px solid var(--svg-fill);
+  }
+
+  .nav-block > ul{
+    padding: 0;
+  }
+
+
+  .carousel-inner img{
+    height: auto;
+  }
+  
+  
+  /* Home2 */
+
+  .Home2 {
+    padding: 5% 15%;
+  }
+
+  .Home2 > h1{
+    margin: 1rem auto 1.4rem;
+  }
+
+  .Home2 > p {
+    line-height: 2;
+    word-spacing: 3px;
+  }
+
+  .Home2 > button{
+    margin: 10% auto;
+  }
+
+  .research-page-body{
+    padding: 5% 15%;
+  }
+
+
+  /* card section */
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 100px auto 50px;
+  }
+
+  .card>img {
+    width: 100%;
+  }
+
+  .card>h5 {
+    font-size: 40px;
+  }
+
+  .card>span {
+    font-size: 1.5rem;
+  }
+
+  /* people section */
+
+  .head {
+    margin: 5% 10%;
+  }
+
+  .faculty-body {
+    display: block;
+  }
+
+  .faculty-body img {
+    width: 100%;
+  }
+
+  .faculty-body-container {
+    margin: 0;
+  }
+
+  .faculty-body-container > h2{
+    margin: 30px 0 0;
+  }
+
+  .gscard-container {
+    padding: 5% 10%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gscard {
+    width: 80%;
+  }
+
+  .gscard>img {
+    width: 90%;
+    height: 240px;
+  }
+
+  .gscard > div{
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .Supervised{
+    padding: 5% 15%;
+  }
+
+  /* Publications Section */
+
+  .accordion-item{
+    padding: 1.5rem 0;
+  }
+
+  /* contact section  */
+
+  .grid-contain-cl{
+    grid-template-columns: none;
+    --bs-gutter-x: 0;
+}
+
+  .ca-block1 {
+    margin: 0;
+    height: 10rem;
+  }
+
+  .not-found{
+    top: 150px;
+  }
+  .not-found img{
+    transform: scale(1.1);
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  .nav-links.open {
+    width: 80%;
+  }
+
+  .Home2{
+    padding: 5% 5%;
+  }
+
+  .research-page-body{
+    padding: 5% 10%;
+  }
+
+  .card-container{
+    margin: 0;
+  }
+
+  .card > h5{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .card > span{
+    text-align: center;
+  }
+
+  .gscard-container {
+    grid-template-columns: 1fr;
+  }
+
+  .gscard{
+    width: 100%;
+  }
+
+  .gscard > img{
+    width: 80%;
+    height: 250px;
+  }
+
+  .gscard > div{
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .Supervised{
+    padding: 5% 5%;
+  }
+
+
+  .title-h1{
+    position: absolute;
+    bottom: -10px;
+  }
+  
+  .btn-publications{
+    bottom: 140px;
+    margin: 5px;
+  }
+
+  .accordion{
+    margin: 0;
+  }
+
+  .accordion-body{
+    padding: 0;
+  }
+
+  .accordion-item{
+    padding: 1rem 0;
+  }
+  
+   .accordion-body tr th:nth-child(1), .accordion-body tr th:nth-child(4), .accordion-body tr th:nth-child(5){
+      display: none;
+    }
+
+  .accordion-body tr td:nth-child(1), .accordion-body tr td:nth-child(4), .accordion-body tr td:nth-child(5){
+    display: none;
+  }
+
+  tr th:nth-child(2), tr td:nth-child(2){
+      width: 20%;
+  } 
+
+  .title-pub{
+    width: 100px;
+  }
+
+  .container-contact{
+    padding: 5% 0;
+  }
+
+  .ca-block1{
+    padding: 0;
+  }
+
+  
+  .container-contact p{
+    overflow-wrap: break-word;
+  }
+
+  .not-found img{
+    transform: scale(0.5);
+  }
+  
+}
+
+

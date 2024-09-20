@@ -1,0 +1,47 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10% 10%;
+}
+
+.column {
+    flex: 1;
+    margin: auto 10px;
+}
+
+.card {
+    background-color: var(--bg-main);
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0 6px 15px var(--card-hover);
+}
+
+.card > img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 2/1;
+}
+
+.card > h5, .card > span{
+    text-align: left;
+}
+
+.card > h5{
+    margin: 5% 0;
+    color: var(--people-header);
+}
+
+.card > span{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--p-color);
+}

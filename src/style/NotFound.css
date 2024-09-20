@@ -1,0 +1,13 @@
+
+.not-found{
+    margin-top: 2%;
+    width: 100%;
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found img{
+    transform: scale(1.2);
+}

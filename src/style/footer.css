@@ -1,0 +1,56 @@
+
+footer{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    background-color: var(--bg-main);
+    top: 0;
+    padding: 0 4rem;
+    box-shadow: 5px 0 5px var(--bg-text);
+    z-index: 100;
+}
+
+.footerLink{
+    padding: 3% 7% 2%;
+}
+
+.footerLink > ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLink li{
+    margin: 5px 15px;
+}
+
+
+.footerLink ul svg path{
+    fill: var(--link-color);
+}
+
+.footerLink ul svg:hover path{
+    fill: var(--nav-link-hover);
+}
+
+.copyrightFooter{
+    padding-bottom: 2%;
+}
+
+.copyrightFooter > p{
+    opacity: 0.5;
+}
+
+.footerSC{
+    width: 28px;
+    height: 32px;
+}
+
+
+.footerSC:hover{
+    filter: opacity(1) drop-shadow(0 0 0 blue);
+}
