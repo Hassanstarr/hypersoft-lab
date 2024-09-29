@@ -35,11 +35,6 @@ const NavBar = () => {
   }, []);
 
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-  };
-
-
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light-theme');
   const [themeIcon, setThemeIcon] = useState(LightMode);
 
@@ -79,11 +74,11 @@ const NavBar = () => {
       </div>
 
       <ul ref={menuRef} className={isMobileMenuOpen ? 'nav-links open' : 'nav-links'}>
-        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link onClick={scrollToTop} to="/">Home</Link ></li>
-        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link onClick={scrollToTop} to="/research">Research</Link> </li>
-        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link onClick={scrollToTop} to="/people">People</Link> </li>
-        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link onClick={scrollToTop} to="/publications">Publications</Link> </li>
-        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link onClick={scrollToTop} to="/contact">Contact</Link> </li>
+        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link to="/">Home</Link ></li>
+        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link to="/research">Research</Link> </li>
+        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link to="/people">People</Link> </li>
+        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link to="/publications">Publications</Link> </li>
+        <li onClick={isMobileMenuOpen ? toggleMobileMenu : null}> <Link to="/contact">Contact</Link> </li>
 
 
         <div className="nav-block">

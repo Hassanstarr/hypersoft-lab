@@ -12,6 +12,7 @@ import DiagnosticSupport from './component/DiagnosticSupport.jsx'
 import AnalyzingIntuitionistic from './component/AnalyzingIntuitionistic.jsx'
 import PhotocatalyticMaterials from './component/PhotocatalyticMaterials.jsx'
 import NotFound from './component/NotFound.jsx'
+import ScrollToTop from './component/scrollToTop.middlerwaver.jsx';
 import './style/theme.css'
 import './style/media.css'
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <Router> 
       <NavBar /> 
+      <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/research' element={<Research />} />
