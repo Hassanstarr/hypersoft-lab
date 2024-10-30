@@ -1,5 +1,7 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
+import HypersoftSetRanking from '../asset/HypersoftSetRanking.jpeg'
 import Tailored from '../asset/tailored.jpg'
 import Supply from '../asset/SupplyChain.png'
 import Diagnostic from '../asset/Diagnostic.png'
@@ -16,9 +18,21 @@ import '../style/Home.css'
 const Home = () => {
 
     document.title = "Home"
-    
+
     return (
         <>
+
+            <Helmet>
+                <title>Hypersoft Lab: Cutting-Edge Research & Publications in Soft Set Theory</title>
+                <meta
+                    name="description"
+                    content="Explore research, publications, and innovative decision support systems in fuzzy hypersoft set theory, machine learning, and AI at Hypersoft Lab."
+                />
+                <meta
+                    name="keywords"
+                    content="Hyper, Soft, Lab, Hypersoft Lab, research, Saeed, UMT"
+                />
+            </Helmet>
 
             <div id="carouselExampleFade" class="carousel carousel-fade slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -27,10 +41,19 @@ const Home = () => {
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="5000">
-                        <img src={Tailored} class="d-block w-100" alt="..." />  
+                        <img src={HypersoftSetRanking} class="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <p>
+                                The Hypersoft Set research is recognized globally, showcasing its exceptional standing in the field. Our lab is honored to have a leading researcher at the forefront of this discipline, driving innovation and collaboration for impactful advancements.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src={Tailored} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
                         <img src={Supply} class="d-block w-100" alt="..." />
@@ -46,11 +69,11 @@ const Home = () => {
                     </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <button class="carousel-control-prev custom-button" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <button class="carousel-control-next custom-button" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -66,7 +89,7 @@ const Home = () => {
                     Collaboration is a cornerstone of our research approach. We actively engage with individuals and groups at UMT, fostering synergy with various research entities in universities across Pakistan and internationally. Through these collaborations, we strive to cultivate holistic perspectives that enrich and elevate the depth of our research endeavors.
                 </p>
 
-                <button className='btn btn-lg btn-outline-primary'><a href="https://www.researchgate.net/lab/Dr-Muhammad-Saeeds-Hypersoft-Lab-Muhammad-Saeed"  target='blank'>We are on Research Gate</a></button>
+                <button className='btn btn-lg btn-outline-primary'><a href="https://www.researchgate.net/lab/Dr-Muhammad-Saeeds-Hypersoft-Lab-Muhammad-Saeed" target='blank'>We are on Research Gate</a></button>
 
             </div>
 
@@ -92,13 +115,13 @@ const Home = () => {
                 <div class="column">
                     <Link to={'/research/diagnostic-support-systems'} >
                         <div class="card">
-                            <img style={{aspectRatio: 1/1}} src={DiagnosticSupport} alt="Diagnostic Support" />
+                            <img style={{ aspectRatio: 1 / 1 }} src={DiagnosticSupport} alt="Diagnostic Support" />
                             <h5>Diagnostic Support Systems for Infectious and Non-Infectious Diseases</h5>
                             <span>Advancing diagnostic support systems to enable accurate and timely detection of both infectious and non-infectious diseases, integrating cutting-edge technologies for improved healthcare outcomes.</span>
                         </div>
                     </Link>
                 </div>
-                
+
                 <div class="column">
                     <Link to={'/research/analyzing-intuitionistic-data'} >
                         <div class="card">
