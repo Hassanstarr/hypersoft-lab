@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2024 [Your Name or Company Name]
+ * All rights reserved.
+ *
+ * Unauthorized reproduction or distribution of this code, in whole or in part, is subject to civil and criminal penalties.
+ */
+
 import {  Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import NavBar from './component/NavBar.jsx';
 import Home from './component/Home.jsx'

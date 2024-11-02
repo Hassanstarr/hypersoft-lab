@@ -1,5 +1,7 @@
 # Hyper Soft Lab
 
+This project is proprietary software owned by **Muhammad Hassan**. It is hosted publicly on GitHub for deployment purposes only. Unauthorized use, copying, or modification of this software is strictly prohibited and may result in legal action.
+
 Welcome to the official website of **Hyper Soft Lab**! This site serves as a hub for the research, publications, and people associated with the lab, focusing on advanced topics in decision-making, machine learning, and diagnostic systems.
 
 Visit Website: [Hypersoft Lab](https://www.hypersoftlab.com)
