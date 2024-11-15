@@ -38,7 +38,7 @@ const ContactAffiliations = () => {
                   <div>
                     <h5>Muhammad Haris Saeed</h5>
                     <p>Personal Assistant</p>
-                    <p> <b>Email:</b> abduallahsaeed74@gmail.com </p>
+                    <p> <b>Email:</b> abdullahsaeed74@gmail.com </p>
                   </div>
                 </div>
               </div>
